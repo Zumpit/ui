@@ -1,5 +1,5 @@
-import React from 'react'
-import { Card, Button } from '@material-ui/core'
+import React from 'react';
+import { Card, Button } from '@material-ui/core';
 
 const UpgradeCard = () => {
     return (
@@ -26,4 +26,4 @@ const UpgradeCard = () => {
     )
 }
 
-export default UpgradeCard
+export default UpgradeCard;

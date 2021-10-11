@@ -24,6 +24,7 @@
     "echarts": "^4.8.0",
     "echarts-for-react": "^2.0.16",
     "email-existence": "^0.1.6",
+    "email-verifier": "^0.4.1",
     "firebase": "^8.10.0",
     "formik": "^2.1.5",
     "globalize": "^0.1.1",
