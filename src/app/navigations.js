@@ -1,4 +1,4 @@
-import { authRoles } from './auth/authRoles'
+import React from "react"
 
 export const navigations = [
     {
@@ -16,12 +16,12 @@ export const navigations = [
         children: [
             {
                 name: 'Email Finder',
-                iconText: 'SI',
+                iconText: 'EF',
                 path: '/tools/email-finder',
             },
             {
                 name: 'Email Verifier',
-                iconText: 'SI',
+                iconText: 'EV',
                 path: '/tools/email-verifier',
             }
         ],
@@ -32,12 +32,12 @@ export const navigations = [
         children: [
             {
                 name: 'Domain Finder',
-                iconText: 'SI',
+                iconText: 'DF',
                 path: '/tools/domain-finder'
             },
             {
                 name: 'Domain Verifier',
-                iconText: 'SI',
+                iconText: 'DV',
                 path: '/tools/domain-verifier'
             },
         ]

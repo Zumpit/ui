@@ -9,8 +9,8 @@ import { Store } from './redux/Store'
 import { GlobalCss, MatxSuspense, MatxTheme, MatxLayout } from 'app/components'
 import sessionRoutes from './views/sessions/SessionRoutes'
 import AuthGuard from './auth/AuthGuard'
-import { AuthProvider } from 'app/contexts/JWTAuthContext'
 import { SettingsProvider } from 'app/contexts/SettingsContext'
+import { AuthProvider } from 'app/contexts/JWTAuthContext'
 
 const App = () => {
     return (
@@ -39,7 +39,7 @@ const App = () => {
                                         </AuthGuard>
                                     </Switch>
                                 </MatxSuspense>
-                            </AuthProvider>
+                                </AuthProvider>
                         </Router>
                         </BrowserRouter>
                     </MatxTheme>
